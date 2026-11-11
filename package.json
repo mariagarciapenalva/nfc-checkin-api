@@ -1,0 +1,31 @@
+{
+  "name": "nfc-checkin-api",
+  "version": "1.0.0",
+  "description": "Check-in microservice for bjjtrack NFC readers (Express + TypeScript + JWT)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariagarciapenalva/nfc-checkin-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mariagarciapenalva/nfc-checkin-api/issues"
+  },
+  "homepage": "https://github.com/mariagarciapenalva/nfc-checkin-api#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
